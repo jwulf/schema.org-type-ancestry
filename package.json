@@ -1,0 +1,21 @@
+{
+  "name": "schema.org-type-ancestry",
+  "version": "0.0.1",
+  "description": "Schema.org type ancestry in JSON format.",
+  "keywords": [
+    "schema.org",
+    "semantic web",
+    "linked data"
+  ],
+  "author": "Joshua Wulf <jwulf@redhat.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwulf/schema.org-type-ancestry"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
+}
