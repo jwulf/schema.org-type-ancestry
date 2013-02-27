@@ -11,7 +11,7 @@ If you're using node.js, install it via npm thusly:
     
 ## Example Usage ##
 
-    var schematype = require('schema.org-type-ancestry).schema;
+    var schematype = require('schema.org-type-ancestry').schema;
     
     // What are the ancestors of WPFooter?
     
@@ -19,8 +19,8 @@ If you're using node.js, install it via npm thusly:
     
     // Is Hospital a type of LocalBusiness?
     
-    if (schematype['http://schema.org/Hospital].superClassSet['http://schema.org/LocalBusiness']) {
+    if (schematype['http://schema.org/Hospital'].superClassSet['http://schema.org/LocalBusiness']) {
         console.log('Yes');
     } else {
-        console.log('No'):
+        console.log('No');
     }
